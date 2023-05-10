@@ -9,33 +9,47 @@
 				height: 100%;
 			}
 			body { 
-				font: 100% georgia, sans-serif;
+				font: 80% georgia, sans-serif;
 				line-height: 1.8em;
 				color: #555753; 
 				height:100%
 			}
 		</style>
     </head>
-        <title>Parallel Categories Plot</title>
+        <body>
+            <h1>Introduction</h1>
+        </body>
+        <body>
+            <h2>The primary goal of this project is to analyze people who I know that I run
+                into on a weekly basis at William & Mary. Factors such as when I encountered them, where I
+                encountered them and how often I had seen them during the week of data collection are taken into account.
+                The secondary goal of this project is to present the data in three different ways with three different focuses
+                and see if that reveals any new information. First, I made a scatterplot in Plotly 
+                Express that features data points growing and moving to the left depending on when I encountered that 
+                person that week, and the size determines how many times I had encountered them that week. The second
+                visualization was made in Tableau, and focuses on where I saw these people over the course of seven days. 
+                I used Tableau's scatterplot and added a bar graph tooltip on hover-over. The final visualization I made by
+                hand in the same vein as Giorgia Lupi and Stefanie Posavec did for their <a href="http://www.dear-data.com/all" target="_blank" rel="noopener noreferrer">Dear Data project</a>.
+                This visualization focuses on when I encountered the person I knew. 
+            </h2>
+        </body>
+
 
     <body>
-    	<h2>Education and Income by Voter Category</h2>
-    	<iframe src="categories.html" width = "80%" height = "80%" 
-    	frameBorder="0"></iframe>
-
-    </head>
-        <title>Bubble Plot</title> 
-
-    </body>
-        <h2>Percent Voter Turnout and Absentee Turnout in VA (2014-2022)</h2>
-        <iframe src="bubble.html" width = "80%" height = "80%" 
+        <h1>How Many Times Did I Encounter Someone This Week?</h1>
+        <iframe src="encounters (1).html" width = "70%" height = "70%" 
         frameBorder="0"></iframe>
-
-    </head>
-        <title>Chloropleth Map</title>
-
     </body>
-        <h2>Voter Turnout in VA in 2022</h2>
-        <iframe src="map.html" width = "80%" height = "80%" 
-        frameBorder="0"></iframe>
-</html>
+
+    <body>
+        <h1>When Did I Encounter People This Week?</h1>
+        <img src="https://lh3.googleusercontent.com/Q4GXUsgu_1UapYuCu2SDPvBvFZoNPVNFzoRmnmkHRZfHF6LblTTM4Xj4V2xMJS_Vc49sVGTc5IXDYSU7QMLFLkjQjDJ7mec1u1UJdiLGH2sQg_u0wnpkfcb8WyXtd3Np1i-mWjKPsildN_Xq0MfHWo74ZZl4aQd02zI2EAxja58nqus0ZIyAXMXVdqp8ykTbESfFkSGl8v3K-RT6fnK38HF_u_oll1v4c5962HAFGlzALWm6hpH4Txj_N5MY6mluDiuNqv9pYWQGa0fIig7d60_K9kl4Y-O-eSxf59gQOkBURVoPIIb46mLJnvly0blt0qZntmrFAgC40Ui3ktzf3UKxqVIpFn1HFKJW47Qe6fl_z3RE4L56suUHveVh5GNJu_Z9hATPQStDIF30nMRRBZWvOuC2QMlJm_WknNq-wLnMoW0Klf2ehaSnXcjm58CdBRuUkHjLCuTnMNpxVVQIEkAxYoxyxuGB5DgRC9sEOH-yGnhCTpkcIFXhuNsiH1Hf_senTL7mIeyXFke8iuOLC6nxjYGAY6rcIbzB9O9_x0e2w75esjY-aFAX5bKI1DgPdTphSXFcukTJiVH4jGF6fmFeYX9ytRHwdLwqSbCTrSkUGB2DLYcpnR6gVALHpAzsFs_uV6fVGqfIsXk3uC8x5k17FtiziiHJpWL9BEaNe95-kLNlJZDylKJZqrXgiJMF7flEXS31ENlTUoy4jDHqYukmctuLhHuFEgHLaT7eRDWuuNljrf60ZUIqDcF7FDD2d9uO2qGXVWZBX5AOjNOLjRZZKltWQjrsrJhnkxJBqlu61xIM60BqFvtX9ROMZbF7E7qHyU9kWxYyHHJmnmxuInnBiz2Dt9hXlv6YABEPh3tEL0z03_5Cchdny5xyq31IOisj5gx4x38VQTkF5a7C9gN-KsvWQ30nDYep0voaX_In-oSdhhkqfCII_5QHGGRYqi0RGyaHdBUpduFt=w1232-h1642-s-no?authuser=0"  alt = "My Drawn Visualization" width="500" height="600">> 
+        <img src="https://lh3.googleusercontent.com/BU1FrMmhVpdg0uct4gpCiylJ_3JpboTF2fMNJG9UkdHw8p2mkfuRLrsPncJYpZJhEahFl51HlHRRreqrzv5vt32k3G9c9QCwSxNlKP8oL4CAzypSUAt9Mlhyt7mCaUG3TYn0x1MJ132mbl1tTvgFEgZv-x1TfCiS-PQuJgxono9rnFgENHPCgQGa63MY-1UZXWnQgm2JBs82qnOtcwifC3zvpTXjj_9_bE7UvQ7pOjMP4aemcJP4z012NKmqCmCbW-mBIpC7rGQiSWG1qNDOK-84JS-NW1WBLUDoU40bUjrC6D0lZBTC0cGGeD2UEq-zBa6bEl33yTsgkwTuBz7o7u5wHit-rtEvZEMyz_MTxEqxgTEoUKhGiVO9ehjXmFPHAAUZCGrgCUgeIl9hYzg7H1sZpb0g0vmdLfuidlGm2n1oZuqIZXxDpYopuhUhIvdsBN_weuPUIxdCbdw8TdzTniY1vqRdv177CbVXEYCaYuwj8GF96eS-CJU6ornDbBD7FtNqpS2hu-3vmRHVV_lcflKlsF-LXevCy5H9r22mZTjipZBd28RI1im9tovRjqPnhwU1X6Zd5sEPSP7dN6DlX86o0sLk5lygv46RCF8fLAEOoYvA9yrvgknYT35zAbfRCM-7LHiu3jbjTSDa4CRWBMVQh_Glpd_Vt-u70uDmNZLP_ym6_VoEl3bM6kDNdzcLy5nmUHndjb16ym7mjVzr9NB_JoTTyenzItk1oET62h8EIIR7RA6trbmGXq46RjOx-h_0Z5GsOHjh38KUZ-qGmcwobXieF8RcqcPP43E_5xOFJ69QlWhHrWFdkAcM3_4jqkH3BpqrT4DjkyPOGymF5QJiaP_LrrAznJSfeStMcSFOpC3yZZ3_fIMF2TjloPMzcKBuOKZNDbD5eA6VHuHxl9tLAy8RhhApN4OGbl58vA8rdfXEZzX6O5d2EpZcT_r_4ivFJmBDF-lJ6mQF=w1232-h1642-s-no?authuser=0" alt = "How to Read It" width="500" height="600">> 
+    </body>
+    <body>
+        <h1>Where Did I Encounter People This Week?</h1>
+        <a href="https://public.tableau.com/app/profile/sammy.rose/viz/weekly_encounters/Week_Dash?publish=yes" target="_blank" rel="noopener noreferrer">Tableau Scatterplot</a>
+    </body>
+
+        
+        
